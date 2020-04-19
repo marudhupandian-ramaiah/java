@@ -1,4 +1,13 @@
-# java
-Java interview questions
+# Java 
+Nested class  
+Producer consumer
+Missing numbers
+Immutable class
+ForEach
 
-Nested class example - https://github.com/marudhupandian-ramaiah/java/blob/master/src/com/learn/NestedClassExample.java
+# Design Patters
+Singleton
+Factory
+Adaptor
+Template
+Observer
