@@ -1,13 +1,13 @@
 # Java 
-Nested class  
-Producer consumer
-Missing numbers
-Immutable class
-ForEach
+Nested class <br/>
+Producer consumer <br/>
+Missing numbers using BitSet<br/>
+Immutable class <br/>
+ForEach from Java 8 <br/>
 
 # Design Patters
-Singleton
-Factory
-Adaptor
-Template
-Observer
+Singleton <br/>
+Factory <br/>
+Adaptor <br/>
+Template <br/>
+Observer <br/>
