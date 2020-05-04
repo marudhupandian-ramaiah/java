@@ -1,5 +1,9 @@
-package com.learn.core;
+package com.learn;
 
+/**
+* Inner class can access private, protected, public, default, static members of outer class 
+* Whereas static inner class can access only static members of outer class. 
+**/
 public class NestedClassExample {
 
 	public static void main(String[] args) {
