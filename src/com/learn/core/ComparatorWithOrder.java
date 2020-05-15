@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.core;
 
 import java.util.Arrays;
 import java.util.Collections;

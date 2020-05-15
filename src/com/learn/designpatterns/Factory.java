@@ -1,4 +1,4 @@
-package com.ericsson.dp;
+package com.learn.designpatterns;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -1,4 +1,4 @@
-package com.ericsson.dp;
+package com.learn.designpatterns;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

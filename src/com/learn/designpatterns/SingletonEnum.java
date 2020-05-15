@@ -1,4 +1,4 @@
-package com.ericsson.dp;
+package com.learn.designpatterns;
 
 enum SingleEnum {
 	instance;

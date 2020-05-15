@@ -2,7 +2,7 @@ package com.learn.designpatterns;
 
 import java.util.ArrayList;
 
-public class Observer {
+public class ObserverTest {
 
 	public static void main(String[] args) {
 		Loan l=new Loan("Persoanl",13.5f);

@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.core;
 
 /**
 * Inner class can access private, protected, public, default, static members of outer class 
