@@ -17,3 +17,4 @@ Factory <br/>
 Adaptor <br/>
 Template <br/>
 Observer using util and custom <br/>
+Builder <br/>
