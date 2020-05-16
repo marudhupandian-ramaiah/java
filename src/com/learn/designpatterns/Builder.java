@@ -7,7 +7,7 @@ package com.learn.designpatterns;
  * Builder pattern solves those problems.
  *
  */
-public class BuilderTest {
+public class Builder {
 
 	public static void main(String[] args) {
 

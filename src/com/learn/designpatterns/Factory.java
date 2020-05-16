@@ -1,41 +1,66 @@
 package com.learn.designpatterns;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
+/**
+ * 
+ * Factory patterns let you create object based on given input data as arguments
+ *
+ */
 public class Factory {
-	
-	private Factory( ) {
-	}
-	
-	public static Factory getFactory( ) {
-		Factory obj=new Factory();
-		return obj;
-	}
-}
 
-class FactoryTest {
 	public static void main(String[] args) {
-		
-		//Trying to validate threads from pool were taken out for processing without any order
-		ExecutorService service=Executors.newFixedThreadPool(10);
-		for(int x=0;x<20;x++) {
-			service.execute(new MyRunnable());
-		}
+
+		// With dog
+		Animal animal = AnimalFactory.getAnimal("dog");
+		animal.printSound();
+
+		// With cat
+		animal = AnimalFactory.getAnimal("cat");
+		animal.printSound();
+
 	}
 }
 
-class MyRunnable implements Runnable {
+// Factory class
+class AnimalFactory {
+
+	public static Animal getAnimal(String name) {
+
+		// crate object based on input
+		if ("dog".equalsIgnoreCase(name))
+			return new Dog();
+
+		else if ("cat".equalsIgnoreCase(name))
+			return new Cat();
+
+		else
+			return null;
+
+	}
+
+}
+
+// abstract class
+abstract class Animal {
+
+	abstract void printSound();
+
+}
+
+// child classes that overrides the behaviour of parent class
+class Dog extends Animal {
 
 	@Override
-	public void run() {
-			Factory obj=Factory.getFactory();
-			try {
-				Thread.sleep(10000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			System.out.println(Thread.currentThread().getName()+"--Factory obj ref :"+obj);
+	void printSound() {
+		System.out.println("Dog - Bow bow");
 	}
-	
+
+}
+
+class Cat extends Animal {
+
+	@Override
+	void printSound() {
+		System.out.println("Cat - Meow Meow");
+	}
+
 }
