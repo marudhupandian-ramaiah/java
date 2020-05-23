@@ -1,6 +1,6 @@
 # Java Core 
 Nested class with inner and static inner <br/>
-Producer consumer <br/>
+Producer consumer using wait, notify and blocking queue<br/>
 Missing numbers using BitSet<br/>
 Immutable class <br/>
 ForEach from Java 8 <br/>
