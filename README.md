@@ -10,6 +10,7 @@
 - Thread counter 
 - Comparator with order 
 - Regex pattern matching 
+- Completable Future
 
 
 # Design Patters
