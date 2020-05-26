@@ -9,6 +9,7 @@ Thread wait and notify <br/>
 Thread yield and join <br/>
 Thread counter <br/>
 Comparator with order <br/>
+Regex pattern matching <br/>
 
 
 # Design Patters
