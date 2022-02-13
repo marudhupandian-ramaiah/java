@@ -12,6 +12,30 @@
 - Regex pattern matching 
 - Completable Future
 
+# Sample Programs
+- Prime number
+- Palindrome
+- Sum by unique set of elements
+- Lamda
+- String reverse word
+- String reverse satement
+- Remove duplicates
+- Char count
+- Comparator demo
+- Leap year
+- Duplicates in array and array list
+- Join with order, interrupt
+
+# Data Structures
+- ArrayList
+- LinkedList
+- Queue
+- Stack
+
+# Problems
+- CaterPillar
+- BalancedParantheses
+- ReachableArray
 
 # Design Patters
 - Singleton using enum and double checked locking 
@@ -20,3 +44,4 @@
 - Template 
 - Observer using util and custom 
 - Builder 
+- Chain of Responsibility
