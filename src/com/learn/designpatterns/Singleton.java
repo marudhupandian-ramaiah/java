@@ -89,7 +89,7 @@ class SingletonTest {
 			Singleton inObj=(Singleton) in.readObject();
 			in.close();
 			
-			System.out.println("Hashcode while write : "+outObj.hashCode()+",while write : "+inObj.hashCode());
+			System.out.println("Hashcode while write : "+outObj.hashCode()+",while read : "+inObj.hashCode());
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block	
