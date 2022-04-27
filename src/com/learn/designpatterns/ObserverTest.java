@@ -26,7 +26,7 @@ interface Observable {
 
 class Loan implements Observable {
 
-	private ArrayList<Observer> observer=new ArrayList<Observer>();
+	private ArrayList<Observer> observers=new ArrayList<Observer>();
 	private String type;
 	private float rate;
 	
@@ -54,21 +54,18 @@ class Loan implements Observable {
 
 	@Override
 	public void addObserver(Observer o) {
-		// TODO Auto-generated method stub
-		observer.add(o);
+		observers.add(o);
 	}
 
 	@Override
 	public void deleteObserver(Observer o) {
-		// TODO Auto-generated method stub
-		observer.remove(o);
+		observers.remove(o);
 	}
 
 	@Override
 	public void notifyObservers() {
-		// TODO Auto-generated method stub
 		
-		for(Observer o:observer) {
+		for(Observer o:observers) {
 			o.update(rate);
 		}
 	}
